@@ -1,0 +1,234 @@
+/* Student 2 Aung Zaw Zaw*/
+
+
+body {
+	background-image: url('../Images/shBG.png');
+	    background-size: cover; 
+	    background-position: landscape; 
+}
+
+
+.container {
+  text-align: left; 
+  margin-top: 5px;
+  width: 70%;
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.nav{
+    background-color:#009E60;
+	width:100%;
+    margin: 0 ;
+    list-style-type: none;
+}
+
+.nav li{
+    display: inline-block;
+	margin-right: 20px 20px;
+	padding: 5px;
+    margin: 0 40px;
+}
+
+.nav li a{
+    align-items: center;
+    color: white;
+	text-decoration: none;
+	
+}
+
+.nav-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px; 
+}
+
+.nav a:hover{
+    font-size: 18px;
+	background-color: lightblue;
+	transition: background-color 0.5s ease;
+}
+
+h1{
+    font-size: 50px;
+    color: #5C4033;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h2{
+	font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 4%;
+    color: rgb(0, 0, 102);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4{
+	font-size: 20px;
+	color:#5C4033;
+    font-weight: bold;
+	margin-left: 9px;
+}
+
+h5{
+	font-size: 20px;
+	color:#5C4033;
+    font-weight: normal;
+    text-align: left;
+}
+
+p{
+	font-size: 15px;
+	color:#5C4033;
+    font-weight: normal;
+    text-align: left;
+}
+
+ul{
+	font-size: 15px;
+	color:#5C4033;
+    font-weight: normal;
+    text-align: left;
+}
+
+b{
+	color:#5C4033;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.card {
+  width: 25rem; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  overflow: hidden; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.card-body {
+  padding: 15px;
+  background-color: #f9f9f9; 
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: #2c3e50; 
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #7f8c8d; 
+  line-height: 1.5;
+  text-align: left;
+}
+
+#logo{display: block; 
+      width: 150px;
+      height: 150px;
+      margin-left: auto; 
+      margin-right: auto;}
+
+.icon { width: 40px;
+        height: 40px;
+        margin: 0 15px;}
+		
+.intro{
+        margin:20;
+}
+        
+.container{
+        width:80%;
+        margin: 0 auto;
+}
+        
+.py-60{  
+        padding-bottom: 10px;
+}
+		
+table {
+		width: 100%;
+		border-collapse: collapse;
+}
+
+td {
+		padding: 10px;
+		vertical-align: top;
+}
+
+/* Input, Select, and Textarea Styling */
+input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+		font-size: 16px;
+		padding: 5px;
+		margin: 5px 0;
+}
+
+/* Specific Widths for Fields */
+#name {
+		width: 50%; 
+}
+
+#email {
+		width: 60%; 
+}
+
+#phone {
+		width: 40%; 
+}
+
+#programType, #location, #tuitionFees {
+		width: 53%; 
+}
+
+#day, #month, #year {
+		width: 20%; 
+        display: inline-block;
+}
+
+#message {
+		width: 70%; 
+		height: 100px; 
+}
+
+/* Button*/
+button {
+		font-size: 16px;
+		padding: 10px 20px;
+		background-color: #007BFF;
+		color: white;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+}
+
+button:hover {
+		    background-color: #0056b3;
+}
+
+
+		
+		
+
+        

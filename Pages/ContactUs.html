@@ -1,0 +1,170 @@
+<!-- Student 2 Aung Zaw Zaw -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ContactUs</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Student 1 CSS Link  -->
+	<link rel="stylesheet" href="../CSS/student1.css">
+	<!-- Student 2 CSS Link -->
+	<!-- <link rel="stylesheet" href="../CSS/student2.css"> -->
+
+</head>
+<body>
+
+	<ul class="nav">
+		<li><a href=../index.html><img src="../images/N1.png" alt="Home" class="nav-icon">Home</a></li>
+		<li><a href=../Pages/university.html><img src="../images/N2.png" alt="University or College" class="nav-icon">University or College</a></li>
+		<li><a href=../Pages/LanguagePrograms.html><img src="../images/N3.png" alt="Language School" class="nav-icon">Language School</a></li>
+		<li><a href=../Pages/service.html><img src="../images/N4.png" alt="Service" class="nav-icon">Service</a></li>
+		<li><a href=../Pages/ContactUs.html><img src="../images/N5.png" alt="Contact Us" class="nav-icon">Contact Us and Question and Answer</a></li>
+	</ul>
+		
+	<h1> Ireland Student Counselling Service </h1>
+	<img id="logo" src="../images/N6.png" width="200" height="100" alt="Counselling"/>
+	
+	
+	
+
+		<div class="container mt-5">
+			
+			
+			<h5>
+				<img src="../images/F1.png" alt="consult" class="icon">
+				<b>FAQs about studying in Ireland</b>
+			</h5>
+			<p>Q: Why should I choose Ireland for higher education?</p>
+			<p>A: Ireland offers globally recognized degrees, an English-speaking environment, affordable tuition, post-study work visas, and a thriving job market in sectors like IT, finance, and pharmaceuticals.</p>
+			<br>
+			
+			<p>Q: Can international students work part-time in Ireland?</p>
+			<p>A: Yes, international students can work up to 20 hours per week during term time and 40 hours per week during holidays if enrolled in a full-time course of at least one year leading to a qualification recognized by the Irish government.</p>
+			<br>
+			
+			<p>Q: What are the English language requirements for studying in Ireland?</p>
+			<p>A: Most universities and colleges require proof of English proficiency through tests like IELTS, TOEFL, or PTE. Requirements may vary depending on the program.</p>
+			<br>
+			
+			<p>Q: How long does a typical language program in Ireland last?</p>
+			<p>A: A standard language program is typically 6 months of study, followed by 2 months of holidays. Courses can often be extended.</p>
+			<br>
+			
+			<p>Q: Can I get a visa to study a language program in Ireland?</p>
+			<p>A: Yes, students enrolling in accredited language programs can apply for a student visa, allowing them to stay for the duration of their course.</p>
+			<br>
+			
+			<p>Q: What benefits do I get as a language school student?</p>
+			<p>A: Benefits include access to work opportunities, student discounts (like the Student Leap Card for transportation), and the possibility of extending your stay.</p>
+			<br>
+			
+			<p>Q: Is accommodation provided for international students?</p>
+			<p>A: Many institutions offer on-campus accommodation or assistance in finding housing. You can also choose private rentals or student housing options.</p>
+			<br>
+			
+			<p>Q: What is the cost of living in Ireland?</p>
+			<p>A: The cost varies depending on the city, but students should budget for tuition fees, accommodation (€600-€1200 per month), and other living expenses like food and transportation.</p>
+			<br>
+		</div>
+		
+		
+		
+		<div class="container mt-5">
+		
+		
+			<h5>
+				<img src="../images/K1.png" alt="consult" class="icon">
+				<b>Get in Touch with Us</b>
+			</h5>
+			<p>Have questions or need more information? We're here to help! Whether you're interested in studying in Ireland, need guidance on choosing the right language program, or have any other inquiries, feel free to reach out. Our team is dedicated to providing you with all the support you need for a smooth and successful educational experience. </p> 
+			<p> Contact us today, and we'll get back to you as soon as possible.</p>
+			
+			<div class="container">
+			        <form id="contactForm">
+			            <table>
+			                <tr>
+			                    <td><label for="name">Name:</label></td>
+			                    <td>
+			                        <input type="text" id="name" name="name" required placeholder="Enter your name">
+			                        <span id="nameError" class="error-message" style="display:none; color:red;">Name cannot include special characters.</span>
+			                    </td>
+			                </tr>
+			                <tr>
+			                    <td><label for="email">Email:</label></td>
+			                    <td>
+			                        <input type="email" id="email" name="email" required placeholder="Enter your email">
+			                        <span id="emailError" class="error-message" style="display:none; color:red;">Please enter a valid email address.</span>
+			                    </td>
+			                </tr>
+			                <tr>
+			                    <td><label for="phone">Phone Number:</label></td>
+			                    <td>
+			                        <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+			                        <span id="phoneError" class="error-message" style="display:none; color:red;">Please enter a valid phone number.</span>
+			                    </td>
+			                </tr>
+			                <tr>
+			                    <td><label for="programType">Program Type:</label></td>
+			                    <td>
+			                        <select id="programType" name="programType" required>
+			                            <option value="">--Please choose preferable program--</option>
+			                            <option value="University">University</option>
+			                            <option value="College">College</option>
+			                            <option value="Language">Language</option>
+			                        </select>
+			                    </td>
+			                </tr>
+			                <tr>
+			                    <td><label for="studyDate">Preferable Study Date:</label></td>
+			                    <td>
+			                        <select id="day" name="day" required></select>
+			                        <select id="month" name="month" required></select>
+			                        <select id="year" name="year" required></select>
+			                    </td>
+			                </tr>
+			                <tr>
+			                    <td><label for="location">Location:</label></td>
+			                    <td>
+			                        <select id="location" name="location" required>
+			                            <option value="">--Please choose preferable location--</option>
+			                            <option value="Dublin">Dublin</option>
+			                            <option value="Cork">Cork</option>
+			                            <option value="Galway">Galway</option>
+			                            <option value="Other">Other</option>
+			                        </select>
+			                    </td>
+			                </tr>
+			                <tr>
+			                    <td><label for="tuitionFees">Preferable Tuition Fees:</label></td>
+			                    <td>
+			                        <select id="tuitionFees" name="tuitionFees" required>
+			                            <option value="">--Please choose preferable tuition fees--</option>
+			                            <option value="2000-3000">€2000 to €3000</option>
+			                            <option value="4000-6000">€4000 to €6000</option>
+			                            <option value="6000-10000">€6000 to €10000</option>
+			                            <option value="10000-15000">€10000 to €15000</option>
+			                            <option value="15000-25000">€15000 to €25000</option>
+			                            <option value="above25000">Above €25000</option>
+			                        </select>
+			                    </td>
+			                </tr>
+			                <tr>
+			                    <td><label for="message">Message:</label></td>
+			                    <td>
+			                        <textarea id="message" name="message" required placeholder="Enter your message here"></textarea>
+			                    </td>
+			                </tr>
+			                <tr>
+			                    <td colspan="2" style="text-align: center;">
+			                        <button type="submit">Submit</button>
+			                    </td>
+			                </tr>
+			            </table>
+			        </form>
+			    </div>
+
+	        <!-- JavaScript Link -->
+	        <script src="../JS/Student2.js"></script>	
+</body>
+</html>

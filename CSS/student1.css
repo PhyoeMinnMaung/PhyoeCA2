@@ -1,0 +1,158 @@
+/* Student 1 Phyoe Minn Maung*/
+
+html{
+	Scroll-behavior: smooth;
+}
+
+body{
+	background-color:#80d4ff ;
+}
+
+.nav{
+    background-color:#ccff33;
+    margin: 0 ;
+    list-style-type: none;
+}
+
+.nav li{
+    display: inline-block;
+	padding: 10px;
+    margin: 0 40px;
+}
+
+.nav li a{
+    align-items: center;
+    color: hsl(240, 100%, 40%);
+	text-decoration: none;
+	
+}
+
+.nav-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px; 
+}
+
+.nav a:hover{
+    font-size: 18px;
+	background-color: rgb(255, 194, 179);
+	transition: background-color 0.5s ease;
+}
+
+h1{
+    
+    font-family: "Lilita One", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(0, 0, 102);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 102);
+    font-weight: bold;
+    font-family: "Lilita One";
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 4%;
+    color: rgb(0, 0, 102);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4{
+	font-size: 20px;
+	color:rgb(0, 0, 102);
+    font-weight: bold;
+	margin-left: 12px;
+}
+
+h3{
+    color: rgb(0, 0, 102);
+    font-weight: 500;
+}
+
+h5{
+	color: rgb(0, 0, 102);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+#logo{display: block; 
+      width: 150px;
+      height: 150px;
+      margin-left: auto; 
+      margin-right: auto;
+      margin-bottom: 3%;}
+
+
+.icon { width: 40px;
+        height: 40px;
+        margin: 0 15px;}
+
+p{text-align: justify;}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 50px; 
+}
+
+.container{
+    width:80%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.c_photo{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.photo{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+  }
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card-body {
+    padding: 15px;
+    background-color: #f9f9f9; 
+  }
+
+.card:hover {
+    
+    transition: background-color 1s ease;
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 10px #000099; 
+  }
+
+.btn{
+    display: block;
+    margin: 0 auto;
+    width: 150px;;
+}
